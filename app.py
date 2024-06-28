@@ -1,9 +1,9 @@
 import streamlit as st
 from langchain.chat_models import ChatOpenAI
-from paperSummarizer.components.load_docs import load_documents
-from paperSummarizer.components.custom_summarizer import custom_summary
-from paperSummarizer.constants import *
-from paperSummarizer.utils import read_yaml
+from src.paperSummarizer.components.load_docs import load_documents
+from src.paperSummarizer.components.custom_summarizer import custom_summary
+from src.paperSummarizer.constants import *
+from src.paperSummarizer.utils import read_yaml
 
 
 def main():

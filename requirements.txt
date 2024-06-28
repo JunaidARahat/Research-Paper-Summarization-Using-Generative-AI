@@ -4,5 +4,5 @@ langchain
 chromadb
 pypdf
 gradio
-streamlit
+streamlit 
 -e .
